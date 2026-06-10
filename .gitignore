@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local IDE/editor files
+.idea/
+.vscode/
+
+# Local environment and secrets
+.env
+.env.*
+*.log
+
+# Build and package outputs
+build/
+dist/
+*.tmp
+report_render/
+
+# Local app cache
+.cache/
+
+# Local report artifact
+问答系统报告.docx
+*.docx

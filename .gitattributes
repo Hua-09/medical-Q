@@ -1,0 +1,11 @@
+*.py text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+*.ps1 text eol=lf
+*.spec text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
+
+# Keep large CSV datasets byte-stable.
+*.csv -text
+*.txt text eol=lf
