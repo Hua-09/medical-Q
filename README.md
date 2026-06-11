@@ -505,15 +505,15 @@ python -m unittest discover -s tests
 
 混合模式会先做本地检索，再调用千问。如果千问调用失败，系统会自动返回本地检索结果，保证系统仍然可用。
 
-### 4. 可以只提交 exe 吗？
+### 4. 可以只保留和运行 exe 吗？
 
-运行程序打包后的medicalQA.exe程序，需要完整的输出文件夹：
+运行打包后的完整medicalQA.exe程序，需要完整的输出文件夹：
 
 ```text
 dist/MedicalQA/
 ```
 
-不要只用 `MedicalQA.exe` 单文件。
+不要只用 `MedicalQA.exe` 单文件，需要在完整文件内运行。
 
 ## 医疗安全声明
 
