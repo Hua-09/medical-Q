@@ -507,15 +507,13 @@ python -m unittest discover -s tests
 
 ### 4. 可以只提交 exe 吗？
 
-如果只需要演示可运行程序，可以提交整个：
+运行程序打包后的medicalQA.exe程序，需要完整的输出文件夹：
 
 ```text
 dist/MedicalQA/
 ```
 
-不要只提交 `MedicalQA.exe` 单文件。
-
-如果是课程压缩包提交，可根据教师要求同时附带源码、数据、说明文档、报告和测试文件。
+不要只用 `MedicalQA.exe` 单文件。
 
 ## 医疗安全声明
 
