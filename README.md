@@ -507,13 +507,13 @@ python -m unittest discover -s tests
 
 ### 4. 可以只保留和运行 exe 吗？
 
-运行打包后的完整medicalQA.exe程序，需要完整的输出文件夹：
+运行打包后的完整medicalQA.exe程序，需要完整保留输出文件目录：
 
 ```text
 dist/MedicalQA/
 ```
 
-不要只用 `MedicalQA.exe` 单文件，需要在完整文件内运行。
+不要只运行 `MedicalQA.exe` 单文件，需要在dist/MedicalQA/目录下运行。
 
 ## 医疗安全声明
 
